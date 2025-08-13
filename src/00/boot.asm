@@ -115,6 +115,8 @@ reboot:
     call initDisplay
     call initIO
 
+    call mainMenu
+
     ld de, init
     call fileExists
     ld a, panic_init_not_found

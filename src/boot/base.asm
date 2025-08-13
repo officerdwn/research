@@ -2,7 +2,7 @@
 ; Dummy boot page to get emulators to boot the OS
     jr _
     .fill 0x0F - $
-    .db "Emulated", 0
+    .db "Hello World!", 0
 _:
     in a, (PORT_FLASHRAMSIZE)
     
