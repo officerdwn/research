@@ -41,6 +41,7 @@ drawHexHL   .equ 0x0E01
 #include "display.asm"
 #include "display-color.asm"
 #include "keyboard.asm"
+#include "menu.asm"
 #include "link.asm"
 
 #include "crc.asm"
